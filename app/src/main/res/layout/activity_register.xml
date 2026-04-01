@@ -9,34 +9,41 @@
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="LOGIN"
+        android:text="ĐĂNG KÝ"
         android:textSize="24sp"
         android:layout_marginBottom="16dp"/>
 
     <EditText
-        android:id="@+id/etUsername"
+        android:id="@+id/etRegUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Username" />
 
     <EditText
-        android:id="@+id/etPassword"
+        android:id="@+id/etRegPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:hint="Password"
         android:inputType="textPassword" />
 
-    <Button
-        android:id="@+id/btnLoginAction"
+    <EditText
+        android:id="@+id/etRegConfirmPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Login" />
+        android:hint="Xác nhận Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/btnRegisterAction"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng ký" />
 
     <TextView
-        android:id="@+id/tvRegisterLink"
+        android:id="@+id/tvBackToLogin"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Chưa có tài khoản? Đăng ký ngay"
+        android:text="Đã có tài khoản? Đăng nhập"
         android:textColor="@android:color/holo_blue_dark"
         android:layout_marginTop="16dp"
         android:padding="8dp" />

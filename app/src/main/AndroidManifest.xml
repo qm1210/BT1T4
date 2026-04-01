@@ -13,7 +13,7 @@
         android:theme="@style/Theme.BT1T4">
 
         <activity
-            android:name=".MainActivity"
+            android:name=".LoginActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,7 +21,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".LoginActivity" />
+        <activity android:name=".RegisterActivity" />
+        <activity android:name=".MainActivity" />
         <activity android:name=".MovieListActivity" />
         <activity android:name=".TheaterListActivity" />
         <activity android:name=".ShowTimeListActivity" />
